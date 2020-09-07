@@ -307,7 +307,7 @@ def play_hand(hand, word_list, try_again_func):
     print("\n------------------------------------")
     
     print("\nYour current hand:")
- # 'TRY AGAIN' NOT GENERATING NEW HAND
+
     display_hand(hand)
     
     score = 0    
