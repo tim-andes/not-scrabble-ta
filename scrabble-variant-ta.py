@@ -47,10 +47,8 @@ def get_frequency_dict(sequence):
     an element is repeated in the sequence.
 
     sequence: string or list
-    return: dictionary
+    returns: dictionary / histogram of letters
     """
-    
-    # freqs: dictionary (element_type -> int)
     freq = {}
     for x in sequence:
         freq[x] = freq.get(x,0) + 1
@@ -82,7 +80,6 @@ def get_word_score(word, n):
     n: int >= 0
     returns: int >= 0
     """
-    
     word_score = 0
     
     for value in word.lower():
@@ -108,7 +105,6 @@ def display_hand(hand):
 
     hand: dictionary (string -> int)
     """
-    
     for letter in hand.keys():
         for j in range(hand[letter]):
               print("\t", letter, end = ' ')
@@ -128,7 +124,6 @@ def deal_hand(n):
     n: int >= 0
     returns: dictionary (string -> int)
     """
-    
     hand = {}
     num_vowels = int(math.ceil(n / 3))
 
