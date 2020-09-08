@@ -17,4 +17,6 @@ TO DO
 - [ ] Reformat via peer review/PEP8
 - [X] Add substitute hand feature
 
+
+
 Current personal high score: <b>616</b>
