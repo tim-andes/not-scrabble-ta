@@ -332,11 +332,13 @@ def play_hand(hand, word_list):
       The user can also finish playing the hand by inputing two 
       exclamation points (the string '!!') instead of a word.
 
-      hand: dictionary (string -> int)
-      word_list: list of lowercase strings
-      prints: the total score for the hand
+      Inputs:
+          hand: dictionary (string -> int)
+          word_list: list of lowercase strings
       
+      Prints: Current Score or Final Score.      
     """
+
     print("\n\nWelcome to Not-Scrabble!")
     print("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * *")
     print("\n-- Submit a word you see in your hand.")
